@@ -1,16 +1,11 @@
-#make something like Rock, Paper, Scissors, but give it more options.
-#Give it at least two more options, like Fire, Water, Earth, Air, Wind.
-#extra effects for extra points!
 from random import randint
 import time 
-from gtts import gTTS 
 
 computer_senpai = randint(0,4)
 print('Welcome to the Muppets Dating App! \n Are you \'Kermit\', \'Miss Piggy\', \'Fozzie\', \'Beaker\', or \'Janice\'?')
 def main():
     player_character = input('Who are you? ')
     if player_character == 'Kermit' or player_character == 'kermit' or player_character == 'green frog' or player_character == 'Kermie':
-        #This is the Kermit Option
         print('Welcome Kermit. How\'s the rainbow?')
         time.sleep(2)
         print('We have hot singles in your area!')
